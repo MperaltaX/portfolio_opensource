@@ -6,7 +6,7 @@ Este proyecto es un portafolio interactivo con una estética "Sci-Fi / Terminal"
 
 | Vista Principal | Panel de Administración (CMS) |
 | :---: | :---: |
-| [![Vista Principal](./public/images/home.png)](./public/images/home.png) | [![Panel de Administración](./public/images/admin.png)](./public/images/admin.png) |
+| [![Vista Principal](./frontend/public/images/home.png)](./frontend/public/images/home.png) | [![Panel de Administración](./frontend/public/images/admin.png)](./frontend/public/images/admin.png) |
 
 ## 🚀 Características Principales
 
