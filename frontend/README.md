@@ -2,6 +2,12 @@
 
 Este proyecto es un portafolio interactivo con una estética "Sci-Fi / Terminal", diseñado para desarrolladores, ingenieros de software y líderes técnicos. Destaca por incluir un **CMS 100% local**, que te permite gestionar el contenido de la web a través de una interfaz visual sin necesidad de usar bases de datos ni servicios de backend externos.
 
+## 📸 Previsualización
+
+| Vista Principal | Panel de Administración (CMS) |
+| :---: | :---: |
+| [![Vista Principal](./public/images/home.png)](./public/images/home.png) | [![Panel de Administración](./public/images/admin.png)](./public/images/admin.png) |
+
 ## 🚀 Características Principales
 
 *   **Diseño Futurista**: Efectos de _glassmorphism_, neón, texto _glitch_ y animaciones sutiles.
