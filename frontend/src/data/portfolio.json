@@ -1,0 +1,85 @@
+{
+  "hero": {
+    "headline": "Construyendo arquitecturas robustas y liderando equipos de desarrollo de alto impacto.",
+    "role": "Senior Programmer & Technical Lead | Especialista en IA, Automatización y Arquitectura Backend.",
+    "cv": "/cv.pdf"
+  },
+  "techStack": {
+    "engineering": [
+      "Python",
+      "Flask",
+      "Node.js",
+      "C#",
+      "Java",
+      "Docker"
+    ],
+    "databases": [
+      "MongoDB",
+      "Bases de datos multi-tenant"
+    ],
+    "ai": [
+      "Modelos LLM",
+      "Agentes de IA",
+      "n8n",
+      "Typebot"
+    ],
+    "leadership": [
+      "Liderazgo técnico",
+      "Metodologías de desarrollo"
+    ]
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "DevProtocol",
+      "description": "Plataforma de soluciones de software a medida, consultoría técnica y automatización.",
+      "focus": "Arquitectura escalable y visión empresarial.",
+      "metrics": "Incrementó la eficiencia de entrega de software en un 40%.",
+      "image": "/images/devprotocol.png"
+    },
+    {
+      "id": "p2",
+      "title": "Sistema de Gestión de Básculas",
+      "description": "Plataforma web para capturar datos de transmisiones de hardware local en tiempo real.",
+      "stack": [
+        "Flask",
+        "MongoDB",
+        "Docker"
+      ],
+      "focus": "Integración hardware-software y alta disponibilidad.",
+      "metrics": "Procesamiento de miles de registros diarios sin latencia perceptible.",
+      "image": "/images/basculas.png"
+    },
+    {
+      "id": "p3",
+      "title": "BriefAINews",
+      "description": "Plataforma automatizada de agregación y resumen de noticias impulsada por IA.",
+      "stack": [
+        "Scripts de backend",
+        "Modelos de IA"
+      ],
+      "focus": "Automatización de flujos de trabajo y NLP.",
+      "metrics": "Automatizó un flujo que requería 10 horas semanales a menos de 5 minutos.",
+      "image": "/images/briefainews.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": "e1",
+      "role": "Technical Lead",
+      "period": "2023 - Presente",
+      "description": "Gestión de equipos, arquitectura de soluciones complejas y definición del roadmap técnico. Mentoría de desarrolladores e implementación de metodologías ágiles."
+    },
+    {
+      "id": "e2",
+      "role": "Senior Developer",
+      "period": "2020 - 2023",
+      "description": "Desarrollo de microservicios, optimización de bases de datos y liderazgo de iniciativas clave en la infraestructura de backend."
+    }
+  ],
+  "footer": {
+    "email": "tu-correo@ejemplo.com",
+    "github": "https://github.com/tu-usuario",
+    "linkedin": "https://linkedin.com/in/tu-usuario"
+  }
+}
