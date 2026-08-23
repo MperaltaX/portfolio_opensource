@@ -3,14 +3,14 @@ import { Code, Activity, Server } from 'lucide-react';
 
 const Projects = ({ data }) => {
   return (
-    <section id="proyectos" className="projects-section mt-8">
-      <h2 className="flex items-center gap-2 mb-4" style={{ fontSize: '1.2rem', color: 'var(--text-secondary)' }}>
+    <section id="proyectos" className="projects-section mt-8 animate-fade-in-up">
+      <h2 className="flex items-center gap-2 mb-4 animate-glow-text" style={{ fontSize: '1.2rem', color: 'var(--text-secondary)' }}>
         <span style={{ color: 'var(--accent-cyan)' }}>//</span> PROTOCOLOS: PROYECTOS_DESTACADOS
       </h2>
       
       <div className="grid grid-cols-2 gap-4">
         {data.map((project, idx) => (
-          <div key={project.id} className="panel" style={{ borderLeft: `4px solid ${idx % 2 === 0 ? 'var(--accent-cyan)' : 'var(--accent-green)'}` }}>
+          <div key={project.id} className="panel animate-fade-in-up" style={{ animationDelay: `${(idx + 1) * 200}ms`, borderLeft: `4px solid ${idx % 2 === 0 ? 'var(--accent-cyan)' : 'var(--accent-green)'}` }}>
             <div className="flex items-center justify-between mb-4">
               <h3 style={{ fontSize: '1.5rem', color: 'white', margin: 0 }}>
                 {project.title}
@@ -47,7 +47,7 @@ const Projects = ({ data }) => {
             {project.stack && (
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.stack.map((tech, i) => (
-                  <span key={i} style={{ 
+                  <span key={i} className="tech-pill" style={{ 
                     border: '1px solid var(--text-secondary)', 
                     padding: '2px 8px', 
                     fontSize: '0.7rem', 

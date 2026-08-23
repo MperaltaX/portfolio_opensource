@@ -3,8 +3,8 @@ import { GitCommit } from 'lucide-react';
 
 const Timeline = ({ data }) => {
   return (
-    <section id="experiencia" className="timeline-section mt-8 mb-8">
-      <h2 className="flex items-center gap-2 mb-4" style={{ fontSize: '1.2rem', color: 'var(--text-secondary)' }}>
+    <section id="experiencia" className="timeline-section mt-8 mb-8 animate-fade-in-up delay-200">
+      <h2 className="flex items-center gap-2 mb-4 animate-glow-text" style={{ fontSize: '1.2rem', color: 'var(--text-secondary)' }}>
         <span style={{ color: 'var(--accent-cyan)' }}>//</span> EXECUTION_LOG: TIMELINE
       </h2>
       
@@ -12,10 +12,10 @@ const Timeline = ({ data }) => {
         <div style={{ position: 'relative', borderLeft: '2px solid var(--border-subtle)', marginLeft: '1rem' }}>
           
           {data.map((item, idx) => (
-            <div key={item.id} style={{ position: 'relative', paddingLeft: '2rem', paddingBottom: idx === data.length - 1 ? '0' : '3rem' }}>
+            <div key={item.id} className="animate-fade-in-up" style={{ animationDelay: `${(idx + 1) * 200 + 100}ms`, position: 'relative', paddingLeft: '2rem', paddingBottom: idx === data.length - 1 ? '0' : '3rem' }}>
               
               {/* Timeline dot */}
-              <div style={{ 
+              <div className="animate-pulse-glow" style={{ 
                 position: 'absolute', 
                 left: '-9px', 
                 top: '0', 
@@ -26,7 +26,7 @@ const Timeline = ({ data }) => {
                 <GitCommit size={14} color={idx === 0 ? 'var(--accent-green)' : 'var(--accent-cyan)'} />
               </div>
               
-              <div style={{
+              <div className="panel" style={{
                 border: '1px solid var(--border-subtle)',
                 padding: '1.5rem',
                 backgroundColor: 'rgba(0,0,0,0.2)',
