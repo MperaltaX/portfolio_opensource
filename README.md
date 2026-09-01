@@ -1,3 +1,13 @@
+## 🎥 Tutorial: Cómo Levantar y usar el Proyecto
+
+<div align="center">
+  <a href="https://youtu.be/OdS8ihfWog0" target="_blank">
+    <img src="https://img.youtube.com/vi/OdS8ihfWog0/maxresdefault.jpg" alt="Tutorial de instalación" width="600"/>
+  </a>
+</div>
+
+---
+
 # Portfolio Frontend - Nexus System
 
 Este proyecto es un portafolio interactivo con una estética "Sci-Fi / Terminal", diseñado para desarrolladores, ingenieros de software y líderes técnicos. Destaca por incluir un **CMS 100% local**, que te permite gestionar el contenido de la web a través de una interfaz visual sin necesidad de usar bases de datos ni servicios de backend externos.
@@ -14,6 +24,41 @@ Este proyecto es un portafolio interactivo con una estética "Sci-Fi / Terminal"
 *   **Totalmente Editable**: Modifica títulos, la matriz de habilidades, experiencia laboral, proyectos y datos de contacto desde el panel de control.
 *   **CMS Local sin Servidor**: Utiliza un plugin personalizado de Vite para guardar los datos directamente en un archivo JSON local mientras desarrollas.
 *   **Optimizado para Producción**: Al compilar, se genera un sitio estático súper rápido, seguro y económico (o gratuito) de alojar.
+
+---
+
+## ⚡ Inicio Rápido
+
+### Requisitos previos
+*   Node.js 16+ (descargable desde [nodejs.org](https://nodejs.org/))
+*   npm (incluido con Node.js)
+
+### Pasos de instalación
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone <tu-url-del-repositorio>
+   cd portfolio_opensource
+   ```
+
+2. **Navega a la carpeta frontend:**
+   ```bash
+   cd frontend
+   ```
+
+3. **Instala las dependencias:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicia el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Abre tu navegador:**
+   - La aplicación estará disponible en `http://localhost:5173`
+   - Para acceder al panel de administración (CMS), ve a `http://localhost:5173/#admin`
 
 ---
 
